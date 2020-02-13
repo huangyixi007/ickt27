@@ -1,29 +1,43 @@
-# mall
+### 项目名称:
 
-## Project setup
-```
-npm install
-```
+​	商城开发
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Run your unit tests
-```
-npm run test:unit
-```
+### 技术选型:
 
-### Lints and fixes files
-```
-npm run lint
-```
+​	vue	vuex	vue-router	sass	vue-cli	es6	flex	axios	跨域代理
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### 启动项目:
+
+​	yarn serve启动项目
+
+
+
+### 排期:
+
+​	
+
+| 项目名称 | 模块名称   | 开发排期 | 自测排期 |
+| -------- | ---------- | -------- | -------- |
+| 商城网页 |            |          |          |
+|          | 首页       | 6h       | 2h       |
+|          | 登录页     | 4h       | 1h       |
+|          | 商城产品页 | 6h       | 2h       |
+|          | 详情页     | 2h       | 0.5h     |
+|          | 购物车     | 4h       | 1h     |
+|          | 订单确认页 | 4h       | 1h     |
+|          | 订单支付页 | 4h       | 1h     |
+|          | 订单列表   | 4h       | 1h       |
+
+
+
+### 效果图:
+
+
+
+
+
+​	
