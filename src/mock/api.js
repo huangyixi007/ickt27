@@ -1,6 +1,7 @@
 import Mock from 'mockjs'
 
-Mock.mock('/api/user/login',{
+// 伪造接口
+Mock.mock('/api/user/login', {
   "status": 0,
   "data": {
     "id|10001-11000": 0,

@@ -11,6 +11,7 @@ export default new Router({
             path: '/',
             name: 'home',
             component: Home,
+            // 重定向
             redirect: '/index',
             children: [
                 {
@@ -20,11 +21,12 @@ export default new Router({
                 }, {
                     path: '/product/:id',
                     name: 'product',
-                    // 只有进入该路由时函数才会执行 并通过resolve将其抛出
+                    // 只有进入该路由时函数才会执行 并通过参数resolve将其抛出
                     component: resolve => require(['../pages/product.vue'], resolve)
                 }, {
                     path: '/detail/:id',
                     name: 'detail',
+                    // 异步组件
                     component: () => import('../pages/detail.vue')
                 }
             ]

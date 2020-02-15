@@ -7,12 +7,15 @@
     background-color: $colorI;
     opacity: 0.5;
   }
+  // 隐藏到显示的过程
   &.slide-enter-active{
     top:0;
   }
+  // 显示到隐藏的过程
   &.slide-leave-active{
     top:-100%;
   }
+  // 隐藏态
   &.slide-enter{
     top:-100%;
   }
